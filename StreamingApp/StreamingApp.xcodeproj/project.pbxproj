@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D04416492E7A42710027D556 /* DesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = D04416482E7A42710027D556 /* DesignSystem */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		D0EC34B02E7A381A0076EBD6 /* StreamingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreamingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -36,16 +40,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D04416492E7A42710027D556 /* DesignSystem in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D044164A2E7A43010027D556 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D0EC34A72E7A381A0076EBD6 = {
 			isa = PBXGroup;
 			children = (
 				D0EC34B22E7A381A0076EBD6 /* StreamingApp */,
+				D044164A2E7A43010027D556 /* Frameworks */,
 				D0EC34B12E7A381A0076EBD6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,6 +91,7 @@
 			);
 			name = StreamingApp;
 			packageProductDependencies = (
+				D04416482E7A42710027D556 /* DesignSystem */,
 			);
 			productName = StreamingApp;
 			productReference = D0EC34B02E7A381A0076EBD6 /* StreamingApp.app */;
@@ -107,6 +121,9 @@
 			);
 			mainGroup = D0EC34A72E7A381A0076EBD6;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D04416472E7A42710027D556 /* XCLocalSwiftPackageReference "../DesignSystem" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = D0EC34B12E7A381A0076EBD6 /* Products */;
 			projectDirPath = "";
@@ -349,6 +366,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		D04416472E7A42710027D556 /* XCLocalSwiftPackageReference "../DesignSystem" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../DesignSystem;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D04416482E7A42710027D556 /* DesignSystem */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DesignSystem;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D0EC34A82E7A381A0076EBD6 /* Project object */;
 }
