@@ -1,19 +1,8 @@
-//
-//  ViewController.swift
-//  StreamingApp
-//
-//  Created by Pedro Franco on 16/09/25.
-//
-
 import UIKit
 
-class ViewController: UIViewController {
-
+final class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .red
     }
-
-
 }
-
