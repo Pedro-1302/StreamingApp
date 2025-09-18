@@ -1,0 +1,1 @@
+protocol MovieServiceImp { func fetchMovies() }

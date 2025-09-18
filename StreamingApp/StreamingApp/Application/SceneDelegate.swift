@@ -11,7 +11,7 @@ final class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 extension SceneDelegate {
     func configureWindow(using windowScene: UIWindowScene) {
         let window = UIWindow(windowScene: windowScene)
-        window.rootViewController = ViewController()
+        window.rootViewController = MovieListViewController()
         self.window = window
         window.makeKeyAndVisible()
     }
